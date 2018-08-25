@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Add Medical History"
+        android:paddingLeft="60sp"
+        android:paddingTop="15dp"
+        android:paddingBottom="20sp"
+        android:textStyle="italic"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:layout_width="175sp"
+        android:layout_height="150sp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take Prescription"
+        android:textAllCaps="false"
+        android:id="@+id/takePrescriptionButton"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor Name"
+        android:paddingLeft="140sp"
+        android:id="@+id/medicalDoctorNameET"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Details"
+        android:paddingLeft="160sp"
+        android:id="@+id/medicalDetailsET"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:paddingLeft="165sp"
+        android:id="@+id/medicalDateET"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Add medical history"
+        android:textAllCaps="false"
+        android:id="@+id/medicalAddHistoryButton"/>
+
+
+
+</LinearLayout>
